@@ -2,7 +2,7 @@
 
 In this demo I'm playing the role of diligent {{{java.util.concurrent.ConcurrentHashMap}}} maintainer with some _serious_ improvements to make :)
 
-I use Jenkins to discover and report on regressions in memory costs associated with my changes.
+You'll see how I use Jenkins to discover and report on performance regressions associated with my changes.
 
 = The Benchmark =
 This is my Caliper benchmark to measure the cost of Map initialization, comparing mine to !HashMap.
