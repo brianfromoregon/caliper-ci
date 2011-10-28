@@ -1,4 +1,5 @@
 #summary Demo of release 1.0 feature set.
+#labels Featured
 
 In this demo I'm playing the role of diligent {{{java.util.concurrent.ConcurrentHashMap}}} maintainer with some _serious_ improvements to make :)
 
