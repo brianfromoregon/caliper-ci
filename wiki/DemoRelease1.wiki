@@ -3,36 +3,12 @@
 In this demo I'm playing the role of diligent {{{java.util.concurrent.ConcurrentHashMap}}} maintainer with some _serious_ improvements to make :)
 
 = The Benchmark =
-I've created a Caliper benchmark to measure the cost of Map initialization.
-<code language="scala">
-package examples
+I've created a Caliper benchmark to measure the cost of Map initialization, comparing mine to HashMap.
 
-import com.google.caliper.{Param, SimpleBenchmark, Runner}
-import java.util.HashMap
-import java.util.concurrent.ConcurrentHashMap
+http://caliper-ci.googlecode.com/svn/docs/1.0-intro/code.png
 
-object MapBench extends App {
-  Runner.main(classOf[MapBench], Array("--measureMemory", "--vm", "java -server",
-    "--saveResults", "/tmp/MapBench.caliper.json"))
-}
+= Jenkins! =
 
-class MapBench extends SimpleBenchmark {
+[http://caliper-ci.googlecode.com/svn/docs/1.0-intro/config.png http://caliper-ci.googlecode.com/svn/docs/1.0-intro/config.png]
 
-  @Param(Array("10", "1000"))
-  var capacity: Int = _
-
-  def timeNewConcurrentHashMap(reps: Int) {
-    for (i <- 1 to reps) {
-      new ConcurrentHashMap(capacity)
-    }
-  }
-
-  def timeNewHashMap(reps: Int) {
-    for (i <- 1 to reps) {
-      new HashMap(capacity)
-    }
-  }
-}
-
-</code>
-
+= And then... =
