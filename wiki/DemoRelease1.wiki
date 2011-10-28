@@ -42,7 +42,7 @@ Another failure, why? Jenkins saw that in this build I've regressed on the numbe
 
 http://caliper-ci.googlecode.com/svn/docs/1.0-intro/6detail.png
 
-However when the next build runs there will be no change and Jenkins this test will pass.
+However when the next build runs there will be no change and this test will pass.
 
 http://caliper-ci.googlecode.com/svn/docs/1.0-intro/7.png
 http://caliper-ci.googlecode.com/svn/docs/1.0-intro/7detail.png
@@ -50,4 +50,4 @@ http://caliper-ci.googlecode.com/svn/docs/1.0-intro/7detail.png
 
 = Fired =
 
-Good and bad news, Jenkins has been sending these failure emails to my team. My boss has just observed my crazy change and decided to remove me from my position as {{java.util.concurrent.ConcurrentHashMap}} maintainer :(
+Good and bad news, Jenkins has been sending these failure emails to my team, my boss included. I've just been fired from my position as {{{java.util.concurrent.ConcurrentHashMap}}} maintainer on the grounds of "careless checkins" :(
