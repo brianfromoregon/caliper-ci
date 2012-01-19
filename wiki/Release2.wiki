@@ -1,0 +1,16 @@
+#summary The release 2.0 feature set.
+
+= Release 2.0 Features =
+
+This release continues support for memory regression testing, so refer to the DemoRelease1 example to understand how that works.
+
+In addition, I've added to the build results page:
+  * A time column to the results table.
+  * [http://code.google.com/p/caliper-ci/issues/detail?id=6 Trending graphs] for timing results
+  * The build's environment properties
+
+Of note, timing results cannot yet [http://code.google.com/p/caliper-ci/issues/detail?id=5 fail the build].
+
+The new results page remains ugly, but it's richer:
+
+http://caliper-ci.googlecode.com/svn/docs/release2/ss.png
