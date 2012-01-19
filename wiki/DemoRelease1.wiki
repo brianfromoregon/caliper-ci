@@ -1,5 +1,4 @@
 #summary Demo of release 1.0 feature set.
-#labels Featured
 
 = Demo of Release 1.0 Features =
 
