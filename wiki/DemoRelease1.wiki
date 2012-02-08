@@ -1,6 +1,6 @@
-#summary Demo of release 1.0 feature set.
+#summary Demo of release 1 feature set.
 
-= Demo of Release 1.0 Features =
+= Demo of Release 1 Features =
 
 In this demo I'm playing the role of diligent {{{java.util.concurrent.ConcurrentHashMap}}} maintainer with some _serious_ improvements to make :)
 
