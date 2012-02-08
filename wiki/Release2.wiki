@@ -1,4 +1,4 @@
-#summary The release 2.0 feature set.
+#summary The release 2 feature set.
 #labels Featured
 
 = Release 2 Features =
