@@ -1,7 +1,7 @@
 #summary The release 2.0 feature set.
 #labels Featured
 
-= Release 2.0 Features =
+= Release 2 Features =
 
 This release continues support for memory regression testing, so refer to the DemoRelease1 example to understand how that works.
 
