@@ -13,6 +13,6 @@ If my perf test build were to fail, I'll get an email (with appropriate verbiage
 
 == Terminology ==
 
-"Breaking the build" is often associated with lava lamps and public shaming (though as an aside there is a better model, your tools should have the ability to only submit your changes to trunk if it passes basic build steps first, and only notify you if it doesn't).
+"Breaking the build" is often associated with lava lamps and public shaming (though as an aside there is a better model, your tools should have the ability to only submit your changes to trunk if it passes basic build steps first, and notify *only* you if it doesn't).
 
 I happen to run my perf tests as Jenkins jobs, specific runs of which are called "builds", and marking a run as unstable/failed is a convenient and fitting approach. These builds are not really builds, nothing is built, they should not be hooked to lava lamps.
