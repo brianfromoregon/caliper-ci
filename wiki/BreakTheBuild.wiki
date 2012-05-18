@@ -1,5 +1,4 @@
 #summary Should performance regressions fail the build?
-#labels Featured
 
 ==Yikes!==
 
